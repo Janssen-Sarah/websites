@@ -1,0 +1,42 @@
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #000a1e;
+        }
+        .logo
+        {
+            width: 200px;
+        }
+        h1
+        {
+            margin: none;
+            padding: none;
+            font-size: 2em;
+            color: #fa6432
+        }
+        hr
+        {
+            height: 1px;
+            background-color: #000a1e;
+        }
+        p
+        {
+            margin: none;
+            padding: 15px;
+        }
+        a:hover
+        {
+            color: #fa6432;
+            text-decoration-line: none;
+        }
+        div
+        {
+            background-color: #000a1e;
+            text-align: center;
+        }
+        .logoFooter
+        {
+            width: 200px;
+            padding: 10px;
+        }
