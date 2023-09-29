@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #000a1e;
+}
+h1{
+    margin: none;
+    padding: none;
+    font-size: 2em;
+    color: #fa6432;
+}
+h2{
+    margin: none;
+    padding-top: 10px;
+    font-size: 1.5em;
+    color:#000a1e;
+}
+.logoTM
+{
+    margin: 20px;
+    width: 200px;
+}
+a:link
+{
+    color: #000a1e;
+}
+a:hover
+{
+    color: #fa6432;
+}
