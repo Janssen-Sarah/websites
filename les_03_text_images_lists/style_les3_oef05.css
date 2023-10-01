@@ -1,0 +1,25 @@
+body
+{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000a1e;
+}
+.weekplanner
+{
+    width: 400px;
+}
+li{
+    margin: 0;
+    padding: 3px;
+}
+ol{
+    color: white;
+    background-color: #fa6432;
+}
+ul{
+    color: white;
+    background-color: #000a1e;
+}
+.container{
+    padding: 20px;
+    width: 400px;
+}
