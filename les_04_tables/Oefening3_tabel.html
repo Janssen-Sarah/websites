@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table.hoofdtabel
+        {
+            border-collapse: collapse;
+            border: solid 2px red;
+            padding: 15px;
+        }
+        th
+        {
+            border: solid 2px red;  
+            background-color: rgb(255, 188, 188);
+            padding: 15px;
+        }
+        td
+        {   
+            border: solid 2px red;  
+            padding: 15px;
+        }
+        table.genesteTabel 
+        {
+            border-collapse: collapse;
+        }
+        table.genesteTabel th
+        {
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <table class="hoofdtabel">
+        <tr>
+            <th>Voornaam</th>
+            <td>Arthur</td>
+        </tr>
+        <tr>
+            <th>Familienaam</th>
+            <td>Peeters</td>
+        </tr>
+        <tr>
+            <th>Talenkennis</th>
+            <td><table class="genesteTabel">
+    <tr>
+        <th>Nederlands</th>
+        <th>Frans</th>
+        <th>Engels</th>
+    </tr>
+    <tr>
+        <td>moedertaal</td>
+        <td>goed</td>
+        <td>zeer goed</td>
+    </tr>
+</table></td>
+        </tr>
+    </table>
+
+
+
+
+</body>
+</html>
