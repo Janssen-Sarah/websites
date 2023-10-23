@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label
+        {
+            display: inline-block;
+        }
+        input
+        {
+            margin: 3px;
+            padding: 10px;
+           
+        }
+        form
+        {
+            width: 40%;
+        }
+        .naam
+        {
+            background-color:rgb(160, 215, 255);
+        }
+        .naam:focus
+        {
+            background-color: white;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <label for="voornaam">Voornaam:</label><br>
+            <input class="naam" type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+        </div>
+        <div>
+            <label for="familienaam">Familienaam:</label><br>
+            <input class="naam" type="text" id="familienaam" name="familienaam" placeholder="Familienaam"> 
+        </div>
+        <div>    
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>

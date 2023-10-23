@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form
+        {
+            width: 50%;
+        }
+        input
+        {
+            border: solid 1px gray;
+            box-shadow: 5px 5px lightgrey;
+            border-radius: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+<div>
+    <label for="Voornaam">Voornaam: <br>
+    <input type="text" id="Voornaam" name="Voornaam" placeholder="Stijn"></label>
+</div>
+<div>
+    <label for="Familienaam">Familienaam:</label><br>
+    <input type="text" name="Familienaam" id="Familienaam" placeholder="Lenaerts">
+</div>
+<div><label for="Gebruikersnaam">Gebruikersnaam: <br>
+    <input type="email" name="Gebruikersnaam" id="Gebruikersnaam" placeholder="mail@thomasmore.be"></label>
+</div>
+<div><label for="Nickname">Nickname: <br>
+    <input type="text" name="Nickname" id="Nickname" required></label>
+</div>
+<div>
+<label for="passwoord">Paswoord: <br>
+    <input type="password" name="passwoord" id="passwoord" required>
+</label>
+</div>
+<div>
+<label for="Herhaalpaswoord">Herhaal paswoord: <br>
+    <input type="text" name="Herhaalpaswoord" id="Herhaalpaswoord" required>
+</label>
+</div>
+<div><input type="submit" value="Registreren">
+</div>    
+</form>
+</body>
+</html>
